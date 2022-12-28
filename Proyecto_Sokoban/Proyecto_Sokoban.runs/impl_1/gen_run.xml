@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1645365563">
+  <File Type="BITSTR-BMM" Name="Top_proyecto_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Top_proyecto_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Top_proyecto_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="Top_proyecto_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Top_proyecto.tcl"/>
+  <File Type="OPT-TIMING" Name="Top_proyecto_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Top_proyecto_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="Top_proyecto_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Top_proyecto_reports.tcl"/>
+  <File Type="OPT-DRC" Name="Top_proyecto_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Top_proyecto.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Top_proyecto_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Top_proyecto_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Top_proyecto_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Top_proyecto_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Top_proyecto_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Top_proyecto_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Top_proyecto_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Top_proyecto_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Top_proyecto_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Top_proyecto_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Top_proyecto_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Top_proyecto_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Top_proyecto_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="Top_proyecto.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Top_proyecto_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Top_proyecto_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Top_proyecto_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="Top_proyecto.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="Top_proyecto_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Top_proyecto_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Top_proyecto_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Top_proyecto_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Top_proyecto_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Top_proyecto_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Top_proyecto_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="Top_proyecto.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Top_proyecto_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Top_proyecto_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Top_proyecto_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Top_proyecto_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Top_proyecto_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Top_proyecto_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Top_proyecto_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Top_proyecto_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Top_proyecto_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Top_proyecto_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Top_proyecto_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Top_proyecto_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Top_proyecto_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Top_proyecto_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Top_proyecto_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Top_proyecto_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Top_proyecto_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Top_proyecto_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Top_proyecto_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Top_proyecto_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Top_proyecto_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="Top_proyecto.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Top_proyecto_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="Top_proyecto.rbt"/>
+  <File Type="BITSTR-NKY" Name="Top_proyecto.nky"/>
+  <File Type="PDI-FILE" Name="Top_proyecto.pdi"/>
+  <File Type="RCFI_FILE" Name="Top_proyecto.rcfi"/>
+  <File Type="CFI_FILE" Name="Top_proyecto.cfi"/>
+  <File Type="RNPI_FILE" Name="Top_proyecto.rnpi"/>
+  <File Type="NPI_FILE" Name="Top_proyecto.npi"/>
+  <File Type="RBD_FILE" Name="Top_proyecto.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Top_proyecto.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Top_proyecto.sysdef"/>
+  <File Type="BG-BGN" Name="Top_proyecto.bgn"/>
+  <File Type="BG-DRC" Name="Top_proyecto.drc"/>
+  <File Type="RDI-RDI" Name="Top_proyecto.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/Memoria_Numeros/Memoria_Numeros.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/Memoria_Letras/Memoria_Letras.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/Memoria_Mensajes/Memoria_Mensajes.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/Memoria_Soluciones/Memoria_Soluciones.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/Memoria_Fases/Memoria_Fases.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/Memoria_Tablero/Memoria_Tablero.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/Memoria_Sprites/Memoria_Sprites.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Comparador.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Contador.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Dibuja.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Div_Frec_Pixel.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Driver_VGA.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Genera_Color.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Maq_Estados_Juego.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cont_digito_10.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cont_digito_6.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/contador_movimientos.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/div_frec_4.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/logica_fin_tiempo.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux_sprites.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/top_contador.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Top_Proyecto.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/memoria_fases.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/memoria_letras.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/memoria_mensajes.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/memoria_numeros.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/memoria_solu.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/memoria_sprites.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Top_proyecto"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/constrains_Sokoban_Basys3.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Performance_Explore" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design">
+      <Option Id="Directive">0</Option>
+    </Step>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design">
+      <Option Id="Directive">0</Option>
+    </Step>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design">
+      <Option Id="Directive">0</Option>
+    </Step>
+    <Step Id="route_design">
+      <Option Id="Directive">0</Option>
+    </Step>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

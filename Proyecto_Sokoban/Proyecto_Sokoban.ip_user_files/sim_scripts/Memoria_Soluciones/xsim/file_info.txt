@@ -1,0 +1,2 @@
+Memoria_Soluciones.v,verilog,xil_defaultlib,../../../../Proyecto_Sokoban.gen/sources_1/ip/Memoria_Soluciones/sim/Memoria_Soluciones.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

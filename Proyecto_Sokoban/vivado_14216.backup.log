@@ -1,0 +1,1428 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Feb 15 10:43:52 2022
+# Process ID: 14216
+# Current directory: C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3244 C:\Users\Leon\Documents\Universidad\3_GIERM\Sist_Electronicos\Proyecto_Sokoban_Definitivo\Proyecto_FPGA_Sokoban\Proyecto_Sokoban\Proyecto_Sokoban.xpr
+# Log file: C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/vivado.log
+# Journal file: C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban'
+INFO: [Project 1-313] Project file moved from 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto FPGA/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:39 . Memory (MB): peak = 988.430 ; gain = 0.000
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: Top_proyecto
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1283.316 ; gain = 248.207
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Top_proyecto' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:20]
+INFO: [Synth 8-3491] module 'dibuja' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Dibuja.vhd:5' bound to instance 'draw' of component 'dibuja' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:212]
+INFO: [Synth 8-638] synthesizing module 'dibuja' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Dibuja.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'dibuja' (1#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Dibuja.vhd:20]
+INFO: [Synth 8-3491] module 'vga_driver' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Driver_VGA.vhd:5' bound to instance 'driverVGA' of component 'vga_driver' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:227]
+INFO: [Synth 8-638] synthesizing module 'vga_driver' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Driver_VGA.vhd:21]
+INFO: [Synth 8-3491] module 'frec_pixel' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Div_Frec_Pixel.vhd:5' bound to instance 'div_frec_pixel' of component 'frec_pixel' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Driver_VGA.vhd:69]
+INFO: [Synth 8-638] synthesizing module 'frec_pixel' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Div_Frec_Pixel.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'frec_pixel' (2#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Div_Frec_Pixel.vhd:11]
+	Parameter Nbit bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'contador' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Contador.vhd:5' bound to instance 'conth' of component 'contador' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Driver_VGA.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'contador' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Contador.vhd:14]
+	Parameter Nbit bound to: 10 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'contador' (3#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Contador.vhd:14]
+	Parameter Nbit bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'contador' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Contador.vhd:5' bound to instance 'contv' of component 'contador' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Driver_VGA.vhd:88]
+	Parameter Nbit bound to: 10 - type: integer 
+	Parameter End_Of_Screen bound to: 639 - type: integer 
+	Parameter Start_Of_Pulse bound to: 655 - type: integer 
+	Parameter End_Of_Pulse bound to: 751 - type: integer 
+	Parameter End_Of_Line bound to: 799 - type: integer 
+INFO: [Synth 8-3491] module 'comparador' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Comparador.vhd:5' bound to instance 'comph' of component 'comparador' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Driver_VGA.vhd:100]
+INFO: [Synth 8-638] synthesizing module 'comparador' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Comparador.vhd:19]
+	Parameter Nbit bound to: 10 - type: integer 
+	Parameter End_Of_Screen bound to: 639 - type: integer 
+	Parameter Start_Of_Pulse bound to: 655 - type: integer 
+	Parameter End_Of_Pulse bound to: 751 - type: integer 
+	Parameter End_Of_Line bound to: 799 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'comparador' (4#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Comparador.vhd:19]
+	Parameter Nbit bound to: 10 - type: integer 
+	Parameter End_Of_Screen bound to: 479 - type: integer 
+	Parameter Start_Of_Pulse bound to: 489 - type: integer 
+	Parameter End_Of_Pulse bound to: 491 - type: integer 
+	Parameter End_Of_Line bound to: 520 - type: integer 
+INFO: [Synth 8-3491] module 'comparador' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Comparador.vhd:5' bound to instance 'compv' of component 'comparador' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Driver_VGA.vhd:117]
+INFO: [Synth 8-638] synthesizing module 'comparador__parameterized1' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Comparador.vhd:19]
+	Parameter Nbit bound to: 10 - type: integer 
+	Parameter End_Of_Screen bound to: 479 - type: integer 
+	Parameter Start_Of_Pulse bound to: 489 - type: integer 
+	Parameter End_Of_Pulse bound to: 491 - type: integer 
+	Parameter End_Of_Line bound to: 520 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'comparador__parameterized1' (4#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Comparador.vhd:19]
+INFO: [Synth 8-3491] module 'gen_color' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Genera_Color.vhd:5' bound to instance 'gen_colores' of component 'gen_color' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Driver_VGA.vhd:134]
+INFO: [Synth 8-638] synthesizing module 'gen_color' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Genera_Color.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'gen_color' (5#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Genera_Color.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'vga_driver' (6#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Driver_VGA.vhd:21]
+INFO: [Synth 8-3491] module 'Memoria_Sprites' declared at 'c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Sprites/synth/Memoria_Sprites.vhd:59' bound to instance 'sprites' of component 'Memoria_Sprites' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:244]
+INFO: [Synth 8-638] synthesizing module 'Memoria_Sprites' [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Sprites/synth/Memoria_Sprites.vhd:67]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 3 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: Memoria_Sprites.mif - type: string 
+	Parameter C_INIT_FILE bound to: Memoria_Sprites.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 1 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 12 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 12 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 22528 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 22528 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 15 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 12 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 12 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 22528 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 22528 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 15 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 6 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 4 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     6.470587 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_4' declared at 'c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Numeros/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_4' [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Sprites/synth/Memoria_Sprites.vhd:230]
+INFO: [Synth 8-256] done synthesizing module 'Memoria_Sprites' (17#1) [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Sprites/synth/Memoria_Sprites.vhd:67]
+INFO: [Synth 8-3491] module 'Memoria_Tablero' declared at 'c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Tablero/synth/Memoria_Tablero.vhd:59' bound to instance 'tablero' of component 'Memoria_Tablero' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:251]
+INFO: [Synth 8-638] synthesizing module 'Memoria_Tablero' [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Tablero/synth/Memoria_Tablero.vhd:74]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 2 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: no_coe_file_loaded - type: string 
+	Parameter C_INIT_FILE bound to: Memoria_Tablero.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: NO_CHANGE - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 5 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 5 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 64 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 64 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 6 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: NO_CHANGE - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 5 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 5 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 64 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 64 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 6 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 1 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 1 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 0 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 1 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     2.285 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_4' declared at 'c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Numeros/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_4' [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Tablero/synth/Memoria_Tablero.vhd:245]
+INFO: [Synth 8-256] done synthesizing module 'Memoria_Tablero' (19#1) [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Tablero/synth/Memoria_Tablero.vhd:74]
+INFO: [Synth 8-3491] module 'Memoria_Fases' declared at 'c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Fases/synth/Memoria_Fases.vhd:59' bound to instance 'fases' of component 'Memoria_Fases' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:265]
+INFO: [Synth 8-638] synthesizing module 'Memoria_Fases' [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Fases/synth/Memoria_Fases.vhd:67]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 3 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: Memoria_Fases.mif - type: string 
+	Parameter C_INIT_FILE bound to: Memoria_Fases.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 1 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 5 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 5 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 256 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 256 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 8 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 5 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 5 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 256 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 256 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 8 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 0 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 1 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     2.252 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_4' declared at 'c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Numeros/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_4' [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Fases/synth/Memoria_Fases.vhd:230]
+INFO: [Synth 8-256] done synthesizing module 'Memoria_Fases' (20#1) [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Fases/synth/Memoria_Fases.vhd:67]
+INFO: [Synth 8-3491] module 'Memoria_Soluciones' declared at 'c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Soluciones/synth/Memoria_Soluciones.vhd:59' bound to instance 'soluciones' of component 'Memoria_Soluciones' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:272]
+INFO: [Synth 8-638] synthesizing module 'Memoria_Soluciones' [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Soluciones/synth/Memoria_Soluciones.vhd:67]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 3 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: Memoria_Soluciones.mif - type: string 
+	Parameter C_INIT_FILE bound to: Memoria_Soluciones.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 1 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 2 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 2 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 256 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 256 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 8 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 2 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 2 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 256 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 256 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 8 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 0 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 1 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     2.048762 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_4' declared at 'c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Numeros/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_4' [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Soluciones/synth/Memoria_Soluciones.vhd:230]
+INFO: [Synth 8-256] done synthesizing module 'Memoria_Soluciones' (21#1) [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Soluciones/synth/Memoria_Soluciones.vhd:67]
+INFO: [Synth 8-3491] module 'Memoria_Mensajes' declared at 'c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Mensajes/synth/Memoria_Mensajes.vhd:59' bound to instance 'mensajes' of component 'Memoria_Mensajes' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:279]
+INFO: [Synth 8-638] synthesizing module 'Memoria_Mensajes' [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Mensajes/synth/Memoria_Mensajes.vhd:67]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 3 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: Memoria_Mensajes.mif - type: string 
+	Parameter C_INIT_FILE bound to: Memoria_Mensajes.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 1 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 4 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 4 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 192 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 192 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 8 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 4 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 4 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 192 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 192 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 8 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 0 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 1 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     2.210399 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_4' declared at 'c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Numeros/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_4' [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Mensajes/synth/Memoria_Mensajes.vhd:230]
+INFO: [Synth 8-256] done synthesizing module 'Memoria_Mensajes' (22#1) [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Mensajes/synth/Memoria_Mensajes.vhd:67]
+INFO: [Synth 8-3491] module 'Memoria_Letras' declared at 'c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Letras/synth/Memoria_Letras.vhd:59' bound to instance 'letras' of component 'Memoria_Letras' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:286]
+INFO: [Synth 8-638] synthesizing module 'Memoria_Letras' [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Letras/synth/Memoria_Letras.vhd:67]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 3 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: Memoria_Letras.mif - type: string 
+	Parameter C_INIT_FILE bound to: Memoria_Letras.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 1 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 1 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 1 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 16384 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 16384 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 14 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 1 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 1 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 16384 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 16384 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 14 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 0 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 1 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     1.1566 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_4' declared at 'c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Numeros/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_4' [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Letras/synth/Memoria_Letras.vhd:230]
+INFO: [Synth 8-256] done synthesizing module 'Memoria_Letras' (23#1) [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Letras/synth/Memoria_Letras.vhd:67]
+INFO: [Synth 8-3491] module 'Memoria_Numeros' declared at 'c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Numeros/synth/Memoria_Numeros.vhd:59' bound to instance 'numeros' of component 'Memoria_Numeros' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:293]
+INFO: [Synth 8-638] synthesizing module 'Memoria_Numeros' [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Numeros/synth/Memoria_Numeros.vhd:67]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 3 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: Memoria_Numeros.mif - type: string 
+	Parameter C_INIT_FILE bound to: Memoria_Numeros.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 1 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 1 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 1 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 11264 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 11264 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 14 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 1 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 1 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 11264 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 11264 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 14 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 0 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 1 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     1.1566 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_4' declared at 'c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Numeros/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_4' [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Numeros/synth/Memoria_Numeros.vhd:230]
+INFO: [Synth 8-256] done synthesizing module 'Memoria_Numeros' (24#1) [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Numeros/synth/Memoria_Numeros.vhd:67]
+INFO: [Synth 8-3491] module 'top_contador' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/top_contador.vhd:5' bound to instance 'contador_tiempos' of component 'top_contador' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:300]
+INFO: [Synth 8-638] synthesizing module 'top_contador' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/top_contador.vhd:16]
+INFO: [Synth 8-3491] module 'div_frec_4' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/div_frec_4.vhd:5' bound to instance 'ins_div_frec' of component 'div_frec_4' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/top_contador.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'div_frec_4' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/div_frec_4.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'div_frec_4' (25#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/div_frec_4.vhd:12]
+	Parameter N bound to: 4'b0000 
+INFO: [Synth 8-3491] module 'cont_digito_10' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/cont_digito_10.vhd:5' bound to instance 'ins_cont_digito_uds_seg' of component 'cont_digito_10' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/top_contador.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'cont_digito_10' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/cont_digito_10.vhd:17]
+	Parameter N bound to: 4'b0000 
+INFO: [Synth 8-256] done synthesizing module 'cont_digito_10' (26#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/cont_digito_10.vhd:17]
+	Parameter N bound to: 4'b0011 
+INFO: [Synth 8-3491] module 'cont_digito_6' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/cont_digito_6.vhd:5' bound to instance 'ins_cont_digito_dec_seg' of component 'cont_digito_6' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/top_contador.vhd:63]
+INFO: [Synth 8-638] synthesizing module 'cont_digito_6' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/cont_digito_6.vhd:17]
+	Parameter N bound to: 4'b0011 
+INFO: [Synth 8-256] done synthesizing module 'cont_digito_6' (27#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/cont_digito_6.vhd:17]
+	Parameter N bound to: 4'b0001 
+INFO: [Synth 8-3491] module 'cont_digito_10' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/cont_digito_10.vhd:5' bound to instance 'ins_cont_digito_uds_min' of component 'cont_digito_10' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/top_contador.vhd:73]
+INFO: [Synth 8-638] synthesizing module 'cont_digito_10__parameterized1' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/cont_digito_10.vhd:17]
+	Parameter N bound to: 4'b0001 
+INFO: [Synth 8-256] done synthesizing module 'cont_digito_10__parameterized1' (27#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/cont_digito_10.vhd:17]
+	Parameter N bound to: 4'b0000 
+INFO: [Synth 8-3491] module 'cont_digito_6' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/cont_digito_6.vhd:5' bound to instance 'ins_cont_digito_dec_min' of component 'cont_digito_6' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/top_contador.vhd:83]
+INFO: [Synth 8-638] synthesizing module 'cont_digito_6__parameterized1' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/cont_digito_6.vhd:17]
+	Parameter N bound to: 4'b0000 
+INFO: [Synth 8-256] done synthesizing module 'cont_digito_6__parameterized1' (27#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/cont_digito_6.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'top_contador' (28#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/top_contador.vhd:16]
+INFO: [Synth 8-3491] module 'contador_movimientos' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/contador_movimientos.vhd:5' bound to instance 'cont_mov_uds' of component 'contador_movimientos' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:312]
+INFO: [Synth 8-638] synthesizing module 'contador_movimientos' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/contador_movimientos.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'contador_movimientos' (29#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/contador_movimientos.vhd:13]
+INFO: [Synth 8-3491] module 'contador_movimientos' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/contador_movimientos.vhd:5' bound to instance 'cont_mov_dec' of component 'contador_movimientos' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:321]
+INFO: [Synth 8-3491] module 'Juego' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Maq_Estados_Juego.vhd:5' bound to instance 'Gestor_juego' of component 'Juego' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:330]
+INFO: [Synth 8-638] synthesizing module 'Juego' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Maq_Estados_Juego.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'Juego' (30#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Maq_Estados_Juego.vhd:31]
+INFO: [Synth 8-3491] module 'mux_sprites' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/mux_sprites.vhd:5' bound to instance 'Gestor_sprites' of component 'mux_sprites' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:357]
+INFO: [Synth 8-638] synthesizing module 'mux_sprites' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/mux_sprites.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'mux_sprites' (31#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/mux_sprites.vhd:26]
+INFO: [Synth 8-3491] module 'logica_fin_tiempo' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/logica_fin_tiempo.vhd:4' bound to instance 'Gestor_fin_tiempo' of component 'logica_fin_tiempo' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:379]
+INFO: [Synth 8-638] synthesizing module 'logica_fin_tiempo' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/logica_fin_tiempo.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'logica_fin_tiempo' (32#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/logica_fin_tiempo.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Top_proyecto' (33#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:20]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:02:48 ; elapsed = 00:02:42 . Memory (MB): peak = 2421.531 ; gain = 1386.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:49 ; elapsed = 00:02:44 . Memory (MB): peak = 2421.531 ; gain = 1386.422
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:02:49 ; elapsed = 00:02:44 . Memory (MB): peak = 2421.531 ; gain = 1386.422
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.116 . Memory (MB): peak = 2421.531 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/constrs_1/new/constrains_Sokoban_Basys3.xdc]
+Finished Parsing XDC File [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/constrs_1/new/constrains_Sokoban_Basys3.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2421.531 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:03:17 ; elapsed = 00:03:02 . Memory (MB): peak = 2421.531 ; gain = 1386.422
+88 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:03:28 ; elapsed = 00:03:28 . Memory (MB): peak = 2421.531 ; gain = 1433.102
+close_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Feb 15 12:09:26 2022] Launched synth_1...
+Run output will be captured here: C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.runs/synth_1/runme.log
+[Tue Feb 15 12:09:26 2022] Launched impl_1...
+Run output will be captured here: C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.runs/impl_1/runme.log
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: Top_proyecto
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2421.531 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Top_proyecto' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:20]
+INFO: [Synth 8-3491] module 'dibuja' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Dibuja.vhd:5' bound to instance 'draw' of component 'dibuja' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:211]
+INFO: [Synth 8-638] synthesizing module 'dibuja' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Dibuja.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'dibuja' (1#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Dibuja.vhd:19]
+INFO: [Synth 8-3491] module 'vga_driver' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Driver_VGA.vhd:5' bound to instance 'driverVGA' of component 'vga_driver' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:225]
+INFO: [Synth 8-638] synthesizing module 'vga_driver' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Driver_VGA.vhd:21]
+INFO: [Synth 8-3491] module 'frec_pixel' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Div_Frec_Pixel.vhd:5' bound to instance 'div_frec_pixel' of component 'frec_pixel' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Driver_VGA.vhd:69]
+INFO: [Synth 8-638] synthesizing module 'frec_pixel' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Div_Frec_Pixel.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'frec_pixel' (2#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Div_Frec_Pixel.vhd:11]
+	Parameter Nbit bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'contador' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Contador.vhd:5' bound to instance 'conth' of component 'contador' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Driver_VGA.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'contador' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Contador.vhd:14]
+	Parameter Nbit bound to: 10 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'contador' (3#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Contador.vhd:14]
+	Parameter Nbit bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'contador' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Contador.vhd:5' bound to instance 'contv' of component 'contador' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Driver_VGA.vhd:88]
+	Parameter Nbit bound to: 10 - type: integer 
+	Parameter End_Of_Screen bound to: 639 - type: integer 
+	Parameter Start_Of_Pulse bound to: 655 - type: integer 
+	Parameter End_Of_Pulse bound to: 751 - type: integer 
+	Parameter End_Of_Line bound to: 799 - type: integer 
+INFO: [Synth 8-3491] module 'comparador' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Comparador.vhd:5' bound to instance 'comph' of component 'comparador' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Driver_VGA.vhd:100]
+INFO: [Synth 8-638] synthesizing module 'comparador' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Comparador.vhd:19]
+	Parameter Nbit bound to: 10 - type: integer 
+	Parameter End_Of_Screen bound to: 639 - type: integer 
+	Parameter Start_Of_Pulse bound to: 655 - type: integer 
+	Parameter End_Of_Pulse bound to: 751 - type: integer 
+	Parameter End_Of_Line bound to: 799 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'comparador' (4#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Comparador.vhd:19]
+	Parameter Nbit bound to: 10 - type: integer 
+	Parameter End_Of_Screen bound to: 479 - type: integer 
+	Parameter Start_Of_Pulse bound to: 489 - type: integer 
+	Parameter End_Of_Pulse bound to: 491 - type: integer 
+	Parameter End_Of_Line bound to: 520 - type: integer 
+INFO: [Synth 8-3491] module 'comparador' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Comparador.vhd:5' bound to instance 'compv' of component 'comparador' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Driver_VGA.vhd:117]
+INFO: [Synth 8-638] synthesizing module 'comparador__parameterized1' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Comparador.vhd:19]
+	Parameter Nbit bound to: 10 - type: integer 
+	Parameter End_Of_Screen bound to: 479 - type: integer 
+	Parameter Start_Of_Pulse bound to: 489 - type: integer 
+	Parameter End_Of_Pulse bound to: 491 - type: integer 
+	Parameter End_Of_Line bound to: 520 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'comparador__parameterized1' (4#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Comparador.vhd:19]
+INFO: [Synth 8-3491] module 'gen_color' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Genera_Color.vhd:5' bound to instance 'gen_colores' of component 'gen_color' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Driver_VGA.vhd:134]
+INFO: [Synth 8-638] synthesizing module 'gen_color' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Genera_Color.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'gen_color' (5#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Genera_Color.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'vga_driver' (6#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Driver_VGA.vhd:21]
+INFO: [Synth 8-3491] module 'Memoria_Sprites' declared at 'c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Sprites/synth/Memoria_Sprites.vhd:59' bound to instance 'sprites' of component 'Memoria_Sprites' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:242]
+INFO: [Synth 8-638] synthesizing module 'Memoria_Sprites' [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Sprites/synth/Memoria_Sprites.vhd:67]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 3 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: Memoria_Sprites.mif - type: string 
+	Parameter C_INIT_FILE bound to: Memoria_Sprites.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 1 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 12 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 12 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 22528 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 22528 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 15 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 12 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 12 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 22528 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 22528 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 15 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 6 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 4 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     6.470587 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_4' declared at 'c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Numeros/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_4' [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Sprites/synth/Memoria_Sprites.vhd:230]
+INFO: [Synth 8-256] done synthesizing module 'Memoria_Sprites' (17#1) [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Sprites/synth/Memoria_Sprites.vhd:67]
+INFO: [Synth 8-3491] module 'Memoria_Tablero' declared at 'c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Tablero/synth/Memoria_Tablero.vhd:59' bound to instance 'tablero' of component 'Memoria_Tablero' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:249]
+INFO: [Synth 8-638] synthesizing module 'Memoria_Tablero' [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Tablero/synth/Memoria_Tablero.vhd:74]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 2 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: no_coe_file_loaded - type: string 
+	Parameter C_INIT_FILE bound to: Memoria_Tablero.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: NO_CHANGE - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 5 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 5 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 64 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 64 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 6 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: NO_CHANGE - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 5 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 5 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 64 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 64 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 6 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 1 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 1 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 0 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 1 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     2.285 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_4' declared at 'c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Numeros/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_4' [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Tablero/synth/Memoria_Tablero.vhd:245]
+INFO: [Synth 8-256] done synthesizing module 'Memoria_Tablero' (19#1) [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Tablero/synth/Memoria_Tablero.vhd:74]
+INFO: [Synth 8-3491] module 'Memoria_Fases' declared at 'c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Fases/synth/Memoria_Fases.vhd:59' bound to instance 'fases' of component 'Memoria_Fases' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:263]
+INFO: [Synth 8-638] synthesizing module 'Memoria_Fases' [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Fases/synth/Memoria_Fases.vhd:67]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 3 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: Memoria_Fases.mif - type: string 
+	Parameter C_INIT_FILE bound to: Memoria_Fases.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 1 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 5 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 5 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 256 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 256 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 8 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 5 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 5 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 256 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 256 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 8 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 0 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 1 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     2.252 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_4' declared at 'c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Numeros/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_4' [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Fases/synth/Memoria_Fases.vhd:230]
+INFO: [Synth 8-256] done synthesizing module 'Memoria_Fases' (20#1) [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Fases/synth/Memoria_Fases.vhd:67]
+INFO: [Synth 8-3491] module 'Memoria_Soluciones' declared at 'c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Soluciones/synth/Memoria_Soluciones.vhd:59' bound to instance 'soluciones' of component 'Memoria_Soluciones' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:270]
+INFO: [Synth 8-638] synthesizing module 'Memoria_Soluciones' [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Soluciones/synth/Memoria_Soluciones.vhd:67]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 3 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: Memoria_Soluciones.mif - type: string 
+	Parameter C_INIT_FILE bound to: Memoria_Soluciones.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 1 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 2 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 2 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 256 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 256 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 8 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 2 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 2 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 256 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 256 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 8 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 0 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 1 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     2.048762 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_4' declared at 'c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Numeros/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_4' [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Soluciones/synth/Memoria_Soluciones.vhd:230]
+INFO: [Synth 8-256] done synthesizing module 'Memoria_Soluciones' (21#1) [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Soluciones/synth/Memoria_Soluciones.vhd:67]
+INFO: [Synth 8-3491] module 'Memoria_Mensajes' declared at 'c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Mensajes/synth/Memoria_Mensajes.vhd:59' bound to instance 'mensajes' of component 'Memoria_Mensajes' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:277]
+INFO: [Synth 8-638] synthesizing module 'Memoria_Mensajes' [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Mensajes/synth/Memoria_Mensajes.vhd:67]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 3 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: Memoria_Mensajes.mif - type: string 
+	Parameter C_INIT_FILE bound to: Memoria_Mensajes.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 1 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 4 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 4 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 192 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 192 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 8 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 4 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 4 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 192 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 192 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 8 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 0 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 1 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     2.210399 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_4' declared at 'c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Numeros/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_4' [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Mensajes/synth/Memoria_Mensajes.vhd:230]
+INFO: [Synth 8-256] done synthesizing module 'Memoria_Mensajes' (22#1) [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Mensajes/synth/Memoria_Mensajes.vhd:67]
+INFO: [Synth 8-3491] module 'Memoria_Letras' declared at 'c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Letras/synth/Memoria_Letras.vhd:59' bound to instance 'letras' of component 'Memoria_Letras' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:284]
+INFO: [Synth 8-638] synthesizing module 'Memoria_Letras' [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Letras/synth/Memoria_Letras.vhd:67]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 3 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: Memoria_Letras.mif - type: string 
+	Parameter C_INIT_FILE bound to: Memoria_Letras.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 1 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 1 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 1 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 16384 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 16384 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 14 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 1 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 1 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 16384 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 16384 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 14 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 0 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 1 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     1.1566 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_4' declared at 'c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Numeros/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_4' [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Letras/synth/Memoria_Letras.vhd:230]
+INFO: [Synth 8-256] done synthesizing module 'Memoria_Letras' (23#1) [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Letras/synth/Memoria_Letras.vhd:67]
+INFO: [Synth 8-3491] module 'Memoria_Numeros' declared at 'c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Numeros/synth/Memoria_Numeros.vhd:59' bound to instance 'numeros' of component 'Memoria_Numeros' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:291]
+INFO: [Synth 8-638] synthesizing module 'Memoria_Numeros' [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Numeros/synth/Memoria_Numeros.vhd:67]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 3 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: Memoria_Numeros.mif - type: string 
+	Parameter C_INIT_FILE bound to: Memoria_Numeros.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 1 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 1 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 1 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 11264 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 11264 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 14 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 1 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 1 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 11264 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 11264 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 14 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 0 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 1 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     1.1566 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_4' declared at 'c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Numeros/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_4' [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Numeros/synth/Memoria_Numeros.vhd:230]
+INFO: [Synth 8-256] done synthesizing module 'Memoria_Numeros' (24#1) [c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Numeros/synth/Memoria_Numeros.vhd:67]
+INFO: [Synth 8-3491] module 'top_contador' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/top_contador.vhd:5' bound to instance 'contador_tiempos' of component 'top_contador' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:298]
+INFO: [Synth 8-638] synthesizing module 'top_contador' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/top_contador.vhd:16]
+INFO: [Synth 8-3491] module 'div_frec_4' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/div_frec_4.vhd:5' bound to instance 'ins_div_frec' of component 'div_frec_4' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/top_contador.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'div_frec_4' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/div_frec_4.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'div_frec_4' (25#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/div_frec_4.vhd:12]
+	Parameter N bound to: 4'b0000 
+INFO: [Synth 8-3491] module 'cont_digito_10' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/cont_digito_10.vhd:5' bound to instance 'ins_cont_digito_uds_seg' of component 'cont_digito_10' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/top_contador.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'cont_digito_10' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/cont_digito_10.vhd:17]
+	Parameter N bound to: 4'b0000 
+INFO: [Synth 8-256] done synthesizing module 'cont_digito_10' (26#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/cont_digito_10.vhd:17]
+	Parameter N bound to: 4'b0011 
+INFO: [Synth 8-3491] module 'cont_digito_6' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/cont_digito_6.vhd:5' bound to instance 'ins_cont_digito_dec_seg' of component 'cont_digito_6' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/top_contador.vhd:63]
+INFO: [Synth 8-638] synthesizing module 'cont_digito_6' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/cont_digito_6.vhd:17]
+	Parameter N bound to: 4'b0011 
+INFO: [Synth 8-256] done synthesizing module 'cont_digito_6' (27#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/cont_digito_6.vhd:17]
+	Parameter N bound to: 4'b0001 
+INFO: [Synth 8-3491] module 'cont_digito_10' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/cont_digito_10.vhd:5' bound to instance 'ins_cont_digito_uds_min' of component 'cont_digito_10' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/top_contador.vhd:73]
+INFO: [Synth 8-638] synthesizing module 'cont_digito_10__parameterized1' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/cont_digito_10.vhd:17]
+	Parameter N bound to: 4'b0001 
+INFO: [Synth 8-256] done synthesizing module 'cont_digito_10__parameterized1' (27#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/cont_digito_10.vhd:17]
+	Parameter N bound to: 4'b0000 
+INFO: [Synth 8-3491] module 'cont_digito_6' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/cont_digito_6.vhd:5' bound to instance 'ins_cont_digito_dec_min' of component 'cont_digito_6' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/top_contador.vhd:83]
+INFO: [Synth 8-638] synthesizing module 'cont_digito_6__parameterized1' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/cont_digito_6.vhd:17]
+	Parameter N bound to: 4'b0000 
+INFO: [Synth 8-256] done synthesizing module 'cont_digito_6__parameterized1' (27#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/cont_digito_6.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'top_contador' (28#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/top_contador.vhd:16]
+INFO: [Synth 8-3491] module 'contador_movimientos' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/contador_movimientos.vhd:5' bound to instance 'cont_mov_uds' of component 'contador_movimientos' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:310]
+INFO: [Synth 8-638] synthesizing module 'contador_movimientos' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/contador_movimientos.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'contador_movimientos' (29#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/contador_movimientos.vhd:13]
+INFO: [Synth 8-3491] module 'contador_movimientos' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/contador_movimientos.vhd:5' bound to instance 'cont_mov_dec' of component 'contador_movimientos' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:319]
+INFO: [Synth 8-3491] module 'Juego' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Maq_Estados_Juego.vhd:5' bound to instance 'Gestor_juego' of component 'Juego' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:328]
+INFO: [Synth 8-638] synthesizing module 'Juego' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Maq_Estados_Juego.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'Juego' (30#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Maq_Estados_Juego.vhd:31]
+INFO: [Synth 8-3491] module 'mux_sprites' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/mux_sprites.vhd:5' bound to instance 'Gestor_sprites' of component 'mux_sprites' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:355]
+INFO: [Synth 8-638] synthesizing module 'mux_sprites' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/mux_sprites.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'mux_sprites' (31#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/mux_sprites.vhd:26]
+INFO: [Synth 8-3491] module 'logica_fin_tiempo' declared at 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/logica_fin_tiempo.vhd:4' bound to instance 'Gestor_fin_tiempo' of component 'logica_fin_tiempo' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:377]
+INFO: [Synth 8-638] synthesizing module 'logica_fin_tiempo' [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/logica_fin_tiempo.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'logica_fin_tiempo' (32#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/logica_fin_tiempo.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Top_proyecto' (33#1) [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd:20]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:03:23 ; elapsed = 00:03:21 . Memory (MB): peak = 2566.754 ; gain = 145.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:24 ; elapsed = 00:03:22 . Memory (MB): peak = 2566.754 ; gain = 145.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:03:24 ; elapsed = 00:03:22 . Memory (MB): peak = 2566.754 ; gain = 145.223
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.133 . Memory (MB): peak = 2566.754 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/constrs_1/new/constrains_Sokoban_Basys3.xdc]
+Finished Parsing XDC File [C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/constrs_1/new/constrains_Sokoban_Basys3.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2566.754 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:03:50 ; elapsed = 00:03:39 . Memory (MB): peak = 2566.754 ; gain = 145.223
+87 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:03:53 ; elapsed = 00:03:41 . Memory (MB): peak = 2566.754 ; gain = 145.223
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 10:01:48
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 03 2020-22:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:02 ; elapsed = 00:00:35 . Memory (MB): peak = 2566.754 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B163FAA
+open_hw_target: Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 3299.863 ; gain = 733.109
+set_property PROGRAM.FILE {C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.runs/impl_1/Top_proyecto.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.runs/impl_1/Top_proyecto.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183B163FAA
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 15 14:07:57 2022...

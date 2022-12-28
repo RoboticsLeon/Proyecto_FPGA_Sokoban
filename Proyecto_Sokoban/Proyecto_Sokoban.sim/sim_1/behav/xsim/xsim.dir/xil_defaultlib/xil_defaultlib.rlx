@@ -1,0 +1,26 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Fases/sim/Memoria_Fases.v,1644580090,verilog,,C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Tablero/sim/Memoria_Tablero.v,,Memoria_Fases,,,,,,,,
+C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Letras/sim/Memoria_Letras.v,1644320670,verilog,,C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Mensajes/sim/Memoria_Mensajes.v,,Memoria_Letras,,,,,,,,
+C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Mensajes/sim/Memoria_Mensajes.v,1644580085,verilog,,C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Soluciones/sim/Memoria_Soluciones.v,,Memoria_Mensajes,,,,,,,,
+C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Numeros/sim/Memoria_Numeros.v,1644403636,verilog,,C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Letras/sim/Memoria_Letras.v,,Memoria_Numeros,,,,,,,,
+C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Soluciones/sim/Memoria_Soluciones.v,1644580088,verilog,,C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Fases/sim/Memoria_Fases.v,,Memoria_Soluciones,,,,,,,,
+C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Sprites/sim/Memoria_Sprites.v,1644580094,verilog,,,,Memoria_Sprites,,,,,,,,
+C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Tablero/sim/Memoria_Tablero.v,1644275100,verilog,,C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.gen/sources_1/ip/Memoria_Sprites/sim/Memoria_Sprites.v,,Memoria_Tablero,,,,,,,,
+C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.sim/sim_1/behav/xsim/glbl.v,1605673890,verilog,,,,glbl,,,,,,,,
+C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sim_1/new/Top_Tb.vhd,1644580373,vhdl,,,,cfg_tb_top_proyecto;tb_top_proyecto,,,,,,,,
+C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/imports/Contador de tiempo/cont_digito_10.vhd,1644580369,vhdl,,,,cont_digito_10,,,,,,,,
+C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/imports/Contador de tiempo/cont_digito_6.vhd,1644534454,vhdl,,,,cont_digito_6,,,,,,,,
+C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/imports/Contador de tiempo/div_frec_4.vhd,1644406186,vhdl,,,,div_frec_4,,,,,,,,
+C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/imports/Contador de tiempo/siete_seg_4.vhd,1644580375,vhdl,,,,top_contador,,,,,,,,
+C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Comparador.vhd,1644001250,vhdl,,,,comparador,,,,,,,,
+C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Contador.vhd,1644001196,vhdl,,,,contador,,,,,,,,
+C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Dibuja.vhd,1644577338,vhdl,,,,dibuja,,,,,,,,
+C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Div_Frec_Pixel.vhd,1644001156,vhdl,,,,frec_pixel,,,,,,,,
+C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Driver_VGA.vhd,1644001090,vhdl,,,,vga_driver,,,,,,,,
+C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Genera_Color.vhd,1644001292,vhdl,,,,gen_color,,,,,,,,
+C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Maq_Estados_Juego.vhd,1644579192,vhdl,,,,juego,,,,,,,,
+C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/Top_Proyecto.vhd,1644578368,vhdl,,,,top_proyecto,,,,,,,,
+C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/new/contador_movimientos.vhd,1644535608,vhdl,,,,contador_movimientos,,,,,,,,

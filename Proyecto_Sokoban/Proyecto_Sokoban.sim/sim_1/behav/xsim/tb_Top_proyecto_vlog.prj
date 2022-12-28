@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Proyecto_Sokoban.gen/sources_1/ip/Memoria_Numeros/sim/Memoria_Numeros.v" \
+"../../../../Proyecto_Sokoban.gen/sources_1/ip/Memoria_Letras/sim/Memoria_Letras.v" \
+"../../../../Proyecto_Sokoban.gen/sources_1/ip/Memoria_Mensajes/sim/Memoria_Mensajes.v" \
+"../../../../Proyecto_Sokoban.gen/sources_1/ip/Memoria_Soluciones/sim/Memoria_Soluciones.v" \
+"../../../../Proyecto_Sokoban.gen/sources_1/ip/Memoria_Fases/sim/Memoria_Fases.v" \
+"../../../../Proyecto_Sokoban.gen/sources_1/ip/Memoria_Tablero/sim/Memoria_Tablero.v" \
+"../../../../Proyecto_Sokoban.gen/sources_1/ip/Memoria_Sprites/sim/Memoria_Sprites.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

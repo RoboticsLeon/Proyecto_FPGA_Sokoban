@@ -1,0 +1,2 @@
+Memoria_Mensajes.v,verilog,xil_defaultlib,../../../../Proyecto_Sokoban.gen/sources_1/ip/Memoria_Mensajes/sim/Memoria_Mensajes.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

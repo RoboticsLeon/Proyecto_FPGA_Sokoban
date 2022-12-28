@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Feb 14 11:52:35 2022
+# Process ID: 6872
+# Current directory: C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto FPGA/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5748 C:\Users\Leon\Documents\Universidad\3_GIERM\Sist_Electronicos\Proyecto FPGA\Proyecto_Sokoban_Definitivo\Proyecto_FPGA_Sokoban\Proyecto_Sokoban\Proyecto_Sokoban.xpr
+# Log file: C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto FPGA/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/vivado.log
+# Journal file: C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto FPGA/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto FPGA/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto FPGA/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban'
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto FPGA/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/constrs_1/imports/PRACTICA 3_VGA/vga_driver _extra.xdc'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto FPGA/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/tb_Top_proyecto_behav.wcfg'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:40 ; elapsed = 00:00:15 . Memory (MB): peak = 1006.336 ; gain = 0.000
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto FPGA/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/constrs_1/imports/PRACTICA 3_VGA/vga_driver _extra.xdc}}] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 {{C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto FPGA/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/constrs_1/imports/PRACTICA 3_VGA/vga_driver _extra.xdc}}
+add_files -fileset constrs_1 -norecurse {{C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto FPGA/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/constrs_1/new/constrains_Sokoban_Basys3.xdc}}
+export_ip_user_files -of_objects  [get_files {{C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto FPGA/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/tb_Top_proyecto_behav.wcfg}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto FPGA/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/tb_Top_proyecto_behav.wcfg}}
+export_ip_user_files -of_objects  [get_files {{c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto FPGA/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/memoria_sprites_sin_comentarios.coe}}] -no_script -reset -force -quiet
+remove_files  {{c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto FPGA/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/memoria_sprites_sin_comentarios.coe}}
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto FPGA/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/memoria_sprites.coe' provided. It will be converted relative to IP Instance files '../../../../memoria_sprites.coe'
+set_property -dict [list CONFIG.Write_Depth_A {22528} CONFIG.Coe_File {C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto FPGA/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/memoria_sprites.coe}] [get_ips Memoria_Sprites]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto FPGA/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/memoria_sprites.coe' provided. It will be converted relative to IP Instance files '../../../../memoria_sprites.coe'
+generate_target all [get_files  {{C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto FPGA/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/ip/Memoria_Sprites/Memoria_Sprites.xci}}]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'Memoria_Sprites'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'Memoria_Sprites'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'Memoria_Sprites'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'Memoria_Sprites'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'Memoria_Sprites'...
+export_ip_user_files -of_objects [get_files {{C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto FPGA/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/ip/Memoria_Sprites/Memoria_Sprites.xci}}] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files {{C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto FPGA/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/ip/Memoria_Sprites/Memoria_Sprites.xci}}] -directory {C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto FPGA/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto FPGA/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.ip_user_files} -ipstatic_source_dir {C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto FPGA/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto FPGA/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.cache/compile_simlib/modelsim} {questa=C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto FPGA/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.cache/compile_simlib/questa} {riviera=C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto FPGA/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.cache/compile_simlib/riviera} {activehdl=C:/Users/Leon/Documents/Universidad/3_GIERM/Sist_Electronicos/Proyecto FPGA/Proyecto_Sokoban_Definitivo/Proyecto_FPGA_Sokoban/Proyecto_Sokoban/Proyecto_Sokoban.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Feb 14 12:01:09 2022...
