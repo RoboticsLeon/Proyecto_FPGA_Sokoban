@@ -1,2 +1,0 @@
-Memoria_Fases.v,verilog,xil_defaultlib,../../../../Proyecto_Sokoban.gen/sources_1/ip/Memoria_Fases/sim/Memoria_Fases.v,
-glbl.v,Verilog,xil_defaultlib,glbl.v

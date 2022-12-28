@@ -1,6 +1,0 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/imports/Contador de tiempo/cont_digito_10.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'cont_digito_10'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sources_1/imports/Contador de tiempo/siete_seg_4.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'top_contador'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alvar/OneDrive/Escritorio/Proyecto_Sokoban_V11/Proyecto_Sokoban/Proyecto_Sokoban.srcs/sim_1/new/Top_Tb.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'tb_Top_proyecto'

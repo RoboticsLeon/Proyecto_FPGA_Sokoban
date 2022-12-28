@@ -1,2 +1,0 @@
-Memoria_Numeros.v,verilog,xil_defaultlib,../../../../Proyecto_Sokoban.gen/sources_1/ip/Memoria_Numeros/sim/Memoria_Numeros.v,
-glbl.v,Verilog,xil_defaultlib,glbl.v
